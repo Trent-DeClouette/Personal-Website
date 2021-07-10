@@ -1,0 +1,139 @@
+:root {
+    --main: #181f25;
+}
+
+html,body { height: 100%; padding: 0; margin: 0; 
+    font-family: 'Zen Dots', cursive;}
+
+/*! Begin Navbar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
+}
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #333;
+    color: #FFF;
+}
+
+/*! Universal Content Display */
+.content {
+    padding-top: 50px; /* Add a top margin to avoid content overlay */
+    padding-bottom: 50px;
+    margin: 0px 15% 0px 15%;
+    font-size: 20px;
+}
+
+/*! Home */
+#Home {
+    height: 80%;
+    width: 100%;
+    min-width: 500px;
+    color: #FFF;
+    background:  linear-gradient(rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.85)), url("https://www.visitnorman.com/uploads/The-University-of-Oklahoma/Campus/ou_lib.jpg") no-repeat center center fixed;
+    background-size: cover;
+    z-index: 0;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+}
+
+#About {
+    color: black;
+}
+
+body #trans0, html #trans0 {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.75)), url("https://images.unsplash.com/photo-1554911940-05efc1892bc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80") no-repeat center center fixed;
+    background-size: cover;
+}
+body #trans0 .center0, html #trans0 .center0 {
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+
+#Projects {
+    color: white;
+    background: var(--main);
+}
+body #trans1, html #trans1 {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.75)), url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80") no-repeat center center fixed;
+    background-size: cover;
+}
+body #trans1 .center1, html #trans1 .center1 {
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+ 
+#SkillSets {
+    color: black;
+}
+#SkillSets ul {
+    list-style: none;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+#SkillSetsEnd h5 {
+    color: white;
+    text-decoration: underline;
+}
+
+h2, h3, p {
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    color: #900;
+}
+.sub {
+    color: grey;
+}
+hr {
+    border-top: 1px solid grey;
+    border-bottom: none;
+}
+
+#End {
+    background: black;
+    color: #FFF;
+    padding: 30px;
+    text-align: center;
+}
+
